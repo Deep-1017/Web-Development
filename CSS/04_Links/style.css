@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.links {
+    color: black;
+}
+
+#youtube {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+}
+/* 
+#box:hover {
+    color: blue;
+} */
+
+
+
+a#amazon {
+    color: green;
+}
+

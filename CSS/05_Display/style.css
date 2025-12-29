@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#heading {
+    border: 2px solid green;
+    margin: 10px 0;
+    display: inline-block;
+    height: 100px;
+}
+
+#short-desc {
+    background-color: blanchedalmond;
+    display: block;
+    height: 100px;
+}

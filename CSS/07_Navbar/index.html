@@ -1,18 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <nav>
+      <div id="container">
+        <!-- Logo -->
         <div id="logo">
-            <img height="25" width="25" src="./Images/profile.jpg" alt="profile-img">
+          <img
+            id="logo-img"
+            height="35"
+            width="35"
+            src="./Images/profile.jpg"
+            alt="profile-img"
+          />
+          <h2 id="logo-head">John Doe</h2>
         </div>
-        <div id="links"></div>
-        <div id="icons"></div>
+
+        <!-- Links -->
+        <div id="links">
+          <ul>
+            <li><a class="link" href="#">Home</a></li>
+            <li><a class="link" href="#">About</a></li>
+            <li><a class="link" href="#">Contact</a></li>
+            <li><a class="link" href="#">Service</a></li>
+          </ul>
+        </div>
+
+        <!-- Icons -->
+        <div id="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-square-linkedin"></i>
+        </div>
+      </div>
     </nav>
-</body>
+  </body>
 </html>

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    margin: 15px;
+    border: 2px solid blue;
+}
+
+img {
+    float: right;
+    padding: 10px;
+}
+
+#para {
+    font-size: 25px;
+
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    position: relative;
+    z-index: 3 / 1 / 2;
+}
+
+#red-box {
+    background-color: red;
+    height: 220px;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+#green-box {
+    background-color: green;
+    height: 180px;
+    width: 220px;
+    position: absolute;
+    z-index: -2;
+}
+
+#blue-box {
+    background-color: blue;
+    height: 320px;
+    width: 100px;
+    position: absolute;
+    z-index: 5;
+}

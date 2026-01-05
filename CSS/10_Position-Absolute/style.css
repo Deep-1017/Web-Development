@@ -10,18 +10,29 @@ html, body {
 }
 
 #container {
-    border: 2px solid gray;
+    border: 2px solid black;
     height: 500px;
     width: 500px;
-    margin: 50px 30px;
+    margin: 50px;
     position: relative;
 }
 
 #red-box {
-    width: 100px;
-    height: 100px;
     background-color: red;
-    /* top: 50px; */
+    height: 120px;
+    width: 120px;
+    /* margin-top: 20px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* left: 150px; */
+}
+
+#green-box {
+    background-color: green;
+    height: 40px;
+    width: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,10 +40,7 @@ html, body {
 }
 
 #blue-box {
-    width: 100px;
-    height: 100px;
     background-color: blue;
-    position: absolute;
-    top: 100px;
-    left: 25px;
+    height: 120px;
+    width: 120px;
 }

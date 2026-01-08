@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#btn {
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+#btn:hover {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 500;
+}
+
+#name {
+    margin: 10px;
+}
+
+#name:focus {
+    background-color: rgb(230, 196, 229); 
+}
+
+/* p:first-child {
+    background-color: antiquewhite;
+    color: crimson;
+} */
+
+#para1 {
+    margin: 12px;
+}
+
+#para1::first-line {
+    color: blue;
+}
+
+#para1::first-letter {
+    color: red;
+    font-size: 25px;
+}
+
+/* #para1::after {
+    content: url('./google-favicon.png');
+} */
+
+#list {
+    margin: 30px;
+}
+
+::marker {
+    color: red;
+}
+
+::selection {
+    background-color: cornsilk;
+    color: brown;
+}

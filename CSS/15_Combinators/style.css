@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Descendent Combinators */
+/* div #para {
+    color: blue;
+} */
+
+
+div p {
+    margin: 20px;
+}
+
+/* Children Combinators */
+/* div > p {
+    color: orange;
+} */
+
+
+/* Next Sibling Combinator  */
+/* div + p {
+    color: cornflowerblue;
+} */
+ 
+/* Sub Sequent Sibling Combinator  */
+div ~ p {
+    color: rgb(208, 0, 255);
+}

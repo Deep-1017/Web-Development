@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.grad {
+    height: 200px;
+    width: 100%;
+    border: 2px solid orange;
+    margin: 22px 0;
+}
+
+#linear-grad {
+    background-image: linear-gradient(150deg, red, green, blue);
+}
+
+#radial-grad {
+    background-image: radial-gradient(red 10%, green 50%, blue 10%);
+}
+
+#conic-grad {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    /* background-image: conic-gradient(red, yellow, green, black, blue, brown, rgb(30, 153, 181), pink); */
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+    border-radius: 50%;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+/* .abc{
+    display: flex;
+    justify-content: center;
+    position: relative;
+} */
+
+.grad-text {
+    font-size: 50px;
+    color: antiquewhite;
+    font-weight: 800;
+    padding-left: 15px;
+}

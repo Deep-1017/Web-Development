@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#box {
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    margin: 125px;
+}
+
+#box:hover {
+    /* transform: translateY(15px); */
+    /* transform: rotate(-90deg); */
+    /* transform: scale(0.5); */
+    /* transform: skew(45deg); */
+    transform: rotateZ(120deg);
+}

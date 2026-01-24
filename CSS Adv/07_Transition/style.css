@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#box {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(4, 0, 255);
+    margin: 100px;
+
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-delay: 5s;
+
+    /* transition: width 5s, height 10s; */
+    /* transition: all 5s ease-in-out 5s; */
+}
+
+#box:hover {
+    width: 500px;
+    height: 300px;
+}

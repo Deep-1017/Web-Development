@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 100px;
+  animation-name: animation1;
+  animation-duration: 5s;
+  animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+  animation-delay: 2s;
+  animation-iteration-count: 5;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes animation1 {
+    from {
+        background-color: red;
+        /* width: 100px; */
+        transform: rotate(40deg);
+    }
+
+    to {
+        background-color: green;
+        /* width: 200px; */
+        transform: translateX(500px);
+    }
+}
+
+@keyframes animation2 {
+
+}

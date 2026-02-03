@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+#btn {
+    text-decoration: none;
+    border: 1px solid burlywood;
+    padding: 10px 25px;
+    background-color: khaki;
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+#car-img {
+    opacity: 0.3;
+    position: relative;
+}

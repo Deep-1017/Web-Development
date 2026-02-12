@@ -1,0 +1,57 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    /* border: 2px solid red; */
+    background-color: bisque;
+    width: 100%;
+    height: 100vh;
+}
+
+#up {
+    height: 45%;
+    background-color: black;
+}
+
+#bottom {
+    height: 55%;
+    display: flex;
+}
+
+#b1 {
+    width: 20%;
+    background-color: chartreuse;
+}
+
+#b2 {
+    width: 30%;
+    background-color: coral;
+}
+
+#b3 {
+    width: 20%;
+    background-color: cornflowerblue;
+}
+
+#b4 {
+    width: 30%;
+    background-color: crimson;
+}
+
+#b1-up {
+    height: 50%;
+    background-color: forestgreen;
+}
+
+#b1-bottom {
+    height: 50%;
+    background-color: rgb(211, 103, 183);
+}
